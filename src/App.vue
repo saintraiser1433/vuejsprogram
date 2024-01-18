@@ -1,4 +1,155 @@
+
 <template>
+  <div>
+    <ClickCounter></ClickCounter>
+    <HoverCounter/>
+  </div>
+</template>
+
+<script>
+  import ClickCounter from './components/ClickCounter.vue';
+  import HoverCounter from './components/HoverCounter.vue';
+  export default {
+    name:'App',
+    components: {
+      ClickCounter,
+      HoverCounter
+    }
+  }
+</script>
+
+<style  scoped>
+
+</style>
+<!-- Template Ref -->
+<!-- <template>
+  <div>
+    <TemplateRef></TemplateRef>
+  </div>
+</template>
+
+<script>
+import TemplateRef from './components/TemplateRef.vue';
+export default {
+  name: 'App',
+  components: {
+    TemplateRef
+  }
+
+}
+</script>
+
+<style scoped></style> -->
+
+<!-- LifeCycle Hook End -->
+<!-- <template>
+  <div>
+    <Parent></Parent>
+  </div>
+</template>
+
+<script>
+  import Parent from './components/Parent.vue';
+  export default {
+    name:'App',
+    components : {
+      Parent
+    }
+  }
+</script>
+
+<style scoped>
+
+</style> -->
+
+
+<!-- HTTP END -->
+<!-- <template>
+  <PostListHttp></PostListHttp>
+  <CreatePost></CreatePost>
+</template>
+
+<script>
+  import PostListHttp from './components/PostListHttp.vue';
+  import CreatePost from './components/CreatePost.vue';
+  export default {
+    name:'App',
+    components: {
+      PostListHttp,
+      CreatePost
+    }
+  }
+</script>
+
+<style scoped>
+
+</style> -->
+
+
+
+<!-- end -->
+<!-- <template>
+  <teleport to="#portal-root">
+    <Portal />
+  </teleport>
+
+</template>
+  
+
+<script>
+import Portal from './components/Portal.vue';
+  export default {
+    name:'App',
+    components: {
+      Portal
+    }
+  }
+</script>
+
+<style scoped>
+
+</style> -->
+<!-- <template>
+  <button @click="activeTab = 'TabA'">Tab A</button>
+  <button @click="activeTab = 'TabB'">Tab B</button>
+  <button @click="activeTab = 'TabC'">Tab C</button>
+  <keep-alive>
+    <component :is="activeTab"/>
+  </keep-alive> -->
+   
+
+  <!-- <TabA v-if="activeTab === 'TabA'" />
+  <TabB v-if="activeTab === 'TabB'"/>
+  <TabC v-if="activeTab === 'TabC'"/> -->
+<!-- </template>
+
+
+
+<script>
+import TabA from './components/TabA.vue';
+import TabB from './components/TabB.vue';
+import TabC from './components/TabC.vue';
+export default {
+  name: 'App',
+  components: {
+    TabA,
+    TabB,
+    TabC
+  },
+  data(){
+    return {
+      activeTab:'TabA'
+    }
+ 
+  }
+}
+</script>
+
+<style scoped></style> -->
+
+
+<!-- END -->
+<!-- <template>
   <h4>App Component Text</h4>
     <ChildStyles>
       <h4>dasdasd</h4>
@@ -20,7 +171,7 @@
 h4{
   color:orange;
 }
-</style>
+</style> -->
 
 <!-- end -->
 <!-- <template>
