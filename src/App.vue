@@ -1,4 +1,91 @@
 <template>
+  <Tutorial58Watchers/>
+</template>
+
+<script>
+import Tutorial58Watchers from './components/Tutorial58Watchers.vue';
+  export default {
+    name:'App',
+    components : {
+      Tutorial58Watchers
+    }
+  }
+</script>
+<!-- tutorial 58 -->
+<!-- <template>
+  <Tutorial57ComputerApi/>
+</template>
+
+<script>
+import Tutorial57ComputerApi from './components/Tutorial57ComputerApi.vue';
+  export default {
+    name:'App',
+    components : {
+      Tutorial57ComputerApi
+    }
+  }
+</script> -->
+<!-- tutorial 56 -->
+<!-- <template>
+  <Tutorial56VModel/>
+</template>
+
+<script>
+import Tutorial56VModel from './components/Tutorial56VModel.vue';
+  export default {
+    name:'App',
+    components : {
+      Tutorial56VModel
+    }
+  }
+</script>
+
+<style scoped>
+
+</style> -->
+<!-- tutorial 55 -->
+<!-- <template>
+   <Tutorial55Methods></Tutorial55Methods>
+</template>
+
+
+<script>
+import Tutorial55Methods from './components/Tutorial55Methods.vue';
+  export default {
+    name:'App',
+    components:{
+      Tutorial55Methods
+    }
+  }
+</script>
+
+<style scoped>
+
+</style> -->
+
+<!-- <template>
+  <Tutorial54/>
+  <Tutorial54v2/>
+</template>
+ 
+
+<script>
+import Tutorial54 from './components/Tutorial54.vue';
+import Tutorial54v2 from './components/Tutorial54v2.vue';
+  export default {
+      name:'App',
+      components : {
+        Tutorial54,
+        Tutorial54v2
+      }
+  }
+</script>
+
+<style scoped>
+
+</style> -->
+<!-- tutorial 53 -->
+<!-- <template>
   <Data/>
 </template>
  
@@ -15,7 +102,7 @@
 
 <style scoped>
 
-</style>
+</style> -->
 
 <!-- 
 <template>
