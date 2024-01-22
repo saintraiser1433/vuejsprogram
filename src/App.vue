@@ -1,16 +1,102 @@
 <template>
-  <Tutorial58Watchers/>
+
+<CounterComposition/>
 </template>
 
+
 <script>
-import Tutorial58Watchers from './components/Tutorial58Watchers.vue';
+import CounterComposition from './components/CounterComposition.vue';
   export default {
     name:'App',
-    components : {
-      Tutorial58Watchers
+    components: {
+      CounterComposition
     }
   }
 </script>
+
+<style scoped>
+
+</style>
+<!-- tutorial 63 and 64 -->
+<!-- <template>
+  <input type="text" placeholder="Enter First Name" v-model="fname"/>
+  <input type="text" placeholder="Enter Last Name" v-model="lname"/>
+
+
+  <Tutorial63Props :fname="fname" :lname="lname" @myValue="getValue"/>
+</template>
+
+<script>
+import Tutorial63Props from './components/Tutorial63Props.vue';
+import { reactive,toRefs } from 'vue';
+  export default {
+    name:'App',
+    components : {
+      Tutorial63Props
+    },
+    setup(){
+      const state = reactive({
+        fname : '',
+        lname : ''
+
+      });
+
+      function getValue(val){
+        alert(val)
+      }
+
+      return {
+        getValue,
+        ...toRefs(state)
+      }
+
+    }
+  }
+</script> -->
+
+
+<!-- <template>
+  <Tutorial62/>
+</template>
+
+<script>
+import Tutorial62 from './components/Tutorial62.vue';
+  export default {
+    name:'App',
+    components : {
+      Tutorial62
+    }
+  }
+</script> -->
+
+<!-- <template>
+  <Tutorial60Provider/>
+</template>
+
+<script>
+import Tutorial60Provider from './components/Tutorial60Provider.vue';
+  export default {
+    name:'App',
+    components : {
+      Tutorial60Provider
+    }
+  }
+</script> -->
+
+<!-- tutorial 58 and 59 -->
+<!-- <template>
+  <Tutorial58and59Watchers/>
+</template>
+
+<script>
+import Tutorial58and59Watchers from './components/Tutorial58and59Watchers.vue';
+  export default {
+    name:'App',
+    components : {
+      Tutorial58and59Watchers
+    }
+  }
+</script> -->
 <!-- tutorial 58 -->
 <!-- <template>
   <Tutorial57ComputerApi/>
